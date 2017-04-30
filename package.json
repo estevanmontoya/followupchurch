@@ -2,17 +2,20 @@
   "name": "followup",
   "version": "1.0.1",
   "description": "A simple crm type application for churches to follow up with new contacts and converts.",
-  "private": false,
+  "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "start": "node app.js"
   },
   "repository": {
    "type": "git",
    "url": "git+https://github.com/estevanmontoya/followupchurch.git"
  },
   "author": "Pastor Estevan Montoya",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "dependencies": {
     "express": "^4.15.2"
+  },
+  "engines": {
+    "node": "7.2.1"
   }
 }
