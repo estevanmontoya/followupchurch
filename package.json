@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node app.js"
   },
+  "repository": {
+   "type": "git",
+   "url": "git+https://github.com/estevanmontoya/followupchurch.git"
+ },
   "author": "Pastor Estevan Montoya",
   "license": "MIT",
   "dependencies": {
