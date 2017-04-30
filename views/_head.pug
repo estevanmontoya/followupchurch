@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title #{title}
+    link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', rel='stylesheet')
+    link(href='css/normalize.css', rel='stylesheet')
+    link(href='css/bulma.css', rel='stylesheet')
+    link(href='css/style.css', rel='stylesheet')
+  body
+    nav.nav.has-shadow
+      .container
+        div.nav-left
+          a.nav-item(href='/')
+            img(src='./img/follow-church-g.png')
+        span.nav-toggle(onclick="document.getElementById('nav-menu').classList.toggle('is-active');")
+          span
+          span
+          span
+        .nav-right.nav-menu
+          a.nav-item.is-tab(href='/login') Log In
+          a.nav-item.is-tab.is-active(href='/sign-up') Sign Up
+    block content
