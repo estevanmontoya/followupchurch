@@ -1,6 +1,6 @@
 {
   "name": "followup",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "A simple crm type application for churches to follow up with new contacts and converts.",
   "private": false,
   "scripts": {
