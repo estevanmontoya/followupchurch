@@ -1,13 +1,14 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3338;
+
+// port
+var port = process.env.PORT || 8080;
 
 // view engine
 app.set('view engine', 'pug');
 app.set('views', __dirname + '/views');
 
 // public
-
 app.use(express.static('public'));
 
 // routes
@@ -30,6 +31,6 @@ app.get('/sign-up', (req, res) => {
 });
 
 // port number
-app.listen(3000, () => {
-  console.log('Site is running at http://localhost:3000');
+app.listen(port, () => {
+  console.log('Site is running at http://localhost:' + port);
 });
