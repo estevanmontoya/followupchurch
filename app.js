@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 3338;
 
 // view engine
 app.set('view engine', 'pug');
