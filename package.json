@@ -7,13 +7,13 @@
     "start": "node app.js"
   },
   "repository": {
-   "type": "git",
-   "url": "https://github.com/estevanmontoya/followupchurch.git"
- },
+    "type": "git",
+    "url": "https://github.com/estevanmontoya/followupchurch.git"
+  },
   "author": "Pastor Estevan Montoya",
   "license": "UNLICENSED",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "4.15.2"
   },
   "engines": {
     "node": "7.2.1",
