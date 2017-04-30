@@ -2,14 +2,13 @@
   "name": "followup",
   "version": "0.0.1",
   "description": "A simple crm type application for churches to follow up with new contacts and converts.",
-  "main": "app.js",
+  "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
   },
   "author": "Pastor Estevan Montoya",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.15.2",
-    "skeleton-css": "^2.0.4"
+    "express": "^4.15.2"
   }
 }
