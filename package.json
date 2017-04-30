@@ -8,7 +8,7 @@
   },
   "repository": {
    "type": "git",
-   "url": "git+https://github.com/estevanmontoya/followupchurch.git"
+   "url": "https://github.com/estevanmontoya/followupchurch.git"
  },
   "author": "Pastor Estevan Montoya",
   "license": "UNLICENSED",
@@ -16,6 +16,7 @@
     "express": "^4.15.2"
   },
   "engines": {
-    "node": "7.2.1"
+    "node": "7.2.1",
+    "npm": "4.1.2"
   }
 }

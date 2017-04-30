@@ -1,0 +1,6 @@
+.grunt
+bower_components
+.npm
+# Dependency directories
+node_modules/
+.DS_Store
