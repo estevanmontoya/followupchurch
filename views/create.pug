@@ -1,0 +1,33 @@
+extends _head
+
+block content
+      section.hero.is-medium.has-text-centered.is-primary
+        .hero-head
+          header
+            .nav
+              .container
+                .nav-center
+                  h2.title(style='padding-top:5px;') Create New Account
+        .hero-body
+          .container
+            .columns.is-tablet
+              .column.is-half.is-offset-one-quarter
+                .field
+                  p.control.has-icons-left
+                    input.input(type='email', placeholder='Email')
+                    span.icon.is-small.is-left
+                      i.fa.fa-envelop
+                .field
+                  p.control.has-icons-left
+                    input.input(type='password', placeholder='Password')
+                    span.icon.is-small.is-left
+                      i.fa.fa-lock
+                .field
+                  p.control.has-icons-left
+                    input.input(type='password', placeholder='Confirm Password')
+                    span.icon.is-small.is-left
+                      i.fa.fa-lock
+                .field
+                  p.control
+                    button.button.is-light
+                        span Login

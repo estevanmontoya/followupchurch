@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
-var pug = require('pug');
+const pug = require('pug');
+const db = ('db.js');
 
 // port
 var port = process.env.PORT || 8080;
@@ -25,9 +26,15 @@ app.get('/login', (req, res) => {
   });
 });
 
-app.get('/sign-up', (req, res) => {
-  res.render('sign-up', {
+app.get('/create', (req, res) => {
+  res.render('create', {
     title: 'FollowUp.Church | Create your FollowUp.Church account.'
+  });
+});
+
+app.get('/contacts', (req, res) => {
+  res.render('contacts', {
+    title: 'List of contacts | FollowUp.Church'
   });
 });
 
