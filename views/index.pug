@@ -4,12 +4,12 @@ block content
     section.hero.is-large.has-text-centered.is-primary.home
       .hero-body
         .container
-          h1.title Don't let another visitor or new convert "fall through the cracks"
-          h2.subtitle A web application to keep track of new 
+          h1.title.is-2 Don't let another visitor or new convert "fall through the cracks"
+          h2.subtitle.is-3   A web application to keep track of new 
             span
               strong converts and contacts.
           a.button.is-primary(href='#more') Learn More
-    section.section.has-text-centered.padding150tb#more
+    section.section.has-text-centered.pt40#more
       .container
         .column.is-half.is-offset-one-quarter
           h2.title.is-3 We are building a website for churches to keep track of new converts and contacts.
@@ -29,9 +29,7 @@ block content
           figure
             img(src='img/contact-info.png')
           p View of individual contact
-      h3.title.is-3.p40 Don't forget to share this website with other ministry leaders!
-      .addthis_inline_share_toolbox
-    section.hero.is-large.is-primary.is-bold.padding150tb#join
+    section.hero.is-large.is-primary.is-bold.p40#join
       .container.has-text-centered
         .columns
           .column.is-quarter
@@ -48,5 +46,8 @@ block content
                 p
                   input(type='submit', value='Join Waiting List', name='subscribe').button.is-primary.is-inverted
             h3.subtitle(style='margin-top:20px;') We may also send helpful information for your church spread the Gospel of Jesus Christ in your community.
+            hr
+            h3.title.is-3 Don't forget to share this website with other ministry leaders!
+            .addthis_inline_share_toolbox
           .column.is-quarter
     script(src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-590586b51b60b6ff', type='text/javascript')

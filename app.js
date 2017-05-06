@@ -49,6 +49,13 @@ app.get('/contacts', (req, res) => {
   });
 });
 
+// individual contact
+app.get('/contact/', (req, res) => {
+  res.render('contact', {
+    title: 'Contact Name | FollowUp.Church'
+  });
+});
+
 // port number
 app.listen(port, () => {
   console.log('Site is running at http://localhost:' + port);
