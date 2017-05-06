@@ -5,10 +5,15 @@ block content
       .hero-body
         .container
           h1.title Don't let another visitor or new convert "fall through the cracks"
-          h2.subtitle A web application to keep track of new converts and contacts.
+          h2.subtitle A web application to keep track of new 
+            span
+              strong converts and contacts.
           a.button.is-primary(href='#more') Learn More
     section.section.has-text-centered.padding150tb#more
-      h2.title.is-3 We are building a website for churches to keep track of new converts and contacts. Track spiritual progress and notes from visits, calls, letters, social media converstations, etc.
+      .container
+        .column.is-half.is-offset-one-quarter
+          h2.title.is-3 We are building a website for churches to keep track of new converts and contacts.
+          h3.subtitle(style='margin-top:5px;') Track spiritual progress and notes from visits, calls, letters, social media converstations, etc.
       img(src='img/progress.png').is-spaced.p40
       h3.title.is-3.is-spaced.p40 Sample wireframes for web application:
       .columns
@@ -35,10 +40,10 @@ block content
             form(action='//Church.us13.list-manage.com/subscribe/post?u=608cc8635d7bdae1b1a473640&amp;id=01716886c4', method='post', class='validate', target='_blank')
               .field
                 p.control
-                  input(type='email', value='', name='EMAIL' id='email', placeholder='Enter E-Mail Address').input.is-medium
+                  input(type='text', value='', name='FNAME' id='fname', placeholder='Enter First Name').input.is-medium
               .field
                 p.control
-                  input(type='text', value='', name='FNAME' id='fname', placeholder='Enter First Name').input.is-medium
+                  input(type='email', value='', name='EMAIL' id='email', placeholder='Enter E-Mail Address').input.is-medium
               .field
                 p
                   input(type='submit', value='Join Waiting List', name='subscribe').button.is-primary.is-inverted

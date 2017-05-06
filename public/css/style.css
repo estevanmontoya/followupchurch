@@ -1,6 +1,7 @@
 .home {
   background-image: url('../img/home-01.jpg');
 }
+
 .padding150tb {
   padding: 150px 0px;
 }
@@ -17,8 +18,4 @@
 .login {
   padding:40px 10px;
   margin-top:20px;
-}
-
-.confirm {
-  text-align: left;
 }
