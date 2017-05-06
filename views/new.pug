@@ -8,4 +8,43 @@ block content
       .container
         .column.is-half.is-offset-one-quarter
           .box
-            p First Name
+            h3.subtitle Add Contact Information
+            .field
+              p.control
+                input.input(type='text', placeholder='First Name')
+            .field
+              p.control
+                input.input(type='text', placeholder='Last Name')
+            .field
+              p.control
+                input.input(type='tel', placeholder='(000) 000-0000')
+            .field
+              p.control
+                input.input(type='text', placeholder='Street Address')
+            .field
+              p.control
+                input.input(type='text', placeholder='City')
+            .field.is-grouped
+              p.control.is-expanded
+                input.input(type='text', placeholder='State')
+              p.control.is-expanded
+                input.input(type='text', placeholder='Zip Code')
+            .field.is-grouped
+              .control
+                label.checkbox
+                  input.mr10(type='checkbox')
+                  span Saved
+              .control
+                label.checkbox
+                  input.mr10(type='checkbox')
+                  span Church Visit
+              .control
+                label.checkbox
+                  input.mr10(type='checkbox')
+                  span Soulwinning
+            hr
+            .field.is-grouped
+              p.control
+                button.button.is-primary Save
+              p.control
+                button.button.is-danger Cancel

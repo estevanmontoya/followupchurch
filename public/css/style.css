@@ -31,3 +31,7 @@
   padding:40px 10px;
   margin-top:20px;
 }
+
+.box, .table {
+  background-color: #f9f9f9;
+}
