@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const pug = require('pug');
-const db = ('db.js');
+const db = require('./db.js')
 
 // port
 var port = process.env.PORT || 8080;

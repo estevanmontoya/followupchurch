@@ -1,53 +1,53 @@
 extends _head
 
 block content
-    section.hero.is-large.has-text-centered.is-primary.home
-      .hero-body
-        .container
-          h1.title.is-2 Don't let another visitor or new convert "fall through the cracks"
-          h2.subtitle.is-3   A web application to keep track of new 
-            span
-              strong converts and contacts.
-          a.button.is-primary(href='#more') Learn More
-    section.section.has-text-centered.pt40#more
+  section.hero.is-large.has-text-centered.is-primary.home
+    .hero-body
       .container
-        .column.is-half.is-offset-one-quarter
-          h2.title.is-3 We are building a website for churches to keep track of new converts and contacts.
-          h3.subtitle(style='margin-top:5px;') Track spiritual progress and notes from visits, calls, letters, social media converstations, etc.
-      img(src='img/progress.png').is-spaced.p40
-      h3.title.is-3.is-spaced.p40 Sample wireframes for web application:
+        h1.title.is-2 Don't let another visitor or new convert "fall through the cracks"
+        h2.subtitle.is-3   A web application to keep track of new 
+          span
+            strong converts and contacts.
+        a.button.is-primary(href='#more') Learn More
+  section.section.has-text-centered.pt40#more
+    .container
+      .column.is-half.is-offset-one-quarter
+        h2.title.is-3 We are building a website for churches to keep track of new converts and contacts.
+        h3.subtitle(style='margin-top:5px;') Track spiritual progress and notes from visits, calls, letters, social media converstations, etc.
+    img(src='img/progress.png').is-spaced.p40
+    h3.title.is-3.is-spaced.p40 Sample wireframes for web application:
+    .columns
+      .column.p40
+        figure
+          img(src='img/contact-list.png')
+        p Contact list
+      .column.p40
+        figure
+          img(src='img/new-contact.png')
+        p Adding new contact
+      .column.p40
+        figure
+          img(src='img/contact-info.png')
+        p View of individual contact
+  section.hero.is-large.is-primary.is-bold.p40#join
+    .container.has-text-centered
       .columns
-        .column.p40
-          figure
-            img(src='img/contact-list.png')
-          p Contact list
-        .column.p40
-          figure
-            img(src='img/new-contact.png')
-          p Adding new contact
-        .column.p40
-          figure
-            img(src='img/contact-info.png')
-          p View of individual contact
-    section.hero.is-large.is-primary.is-bold.p40#join
-      .container.has-text-centered
-        .columns
-          .column.is-quarter
-          .column.is-half
-            h2.title We are still building this helpful application for your church. Join the newsletter to be updated as we make progress.
-            form(action='//Church.us13.list-manage.com/subscribe/post?u=608cc8635d7bdae1b1a473640&amp;id=01716886c4', method='post', class='validate', target='_blank')
-              .field
-                p.control
-                  input(type='text', value='', name='FNAME' id='fname', placeholder='Enter First Name').input.is-medium
-              .field
-                p.control
-                  input(type='email', value='', name='EMAIL' id='email', placeholder='Enter E-Mail Address').input.is-medium
-              .field
-                p
-                  input(type='submit', value='Join Waiting List', name='subscribe').button.is-primary.is-inverted
-            h3.subtitle(style='margin-top:20px;') We may also send helpful information for your church spread the Gospel of Jesus Christ in your community.
-            hr
-            h3.title.is-3 Don't forget to share this website with other ministry leaders!
-            .addthis_inline_share_toolbox
-          .column.is-quarter
-    script(src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-590586b51b60b6ff', type='text/javascript')
+        .column.is-quarter
+        .column.is-half
+          h2.title We are still building this helpful application for your church. Join the newsletter to be updated as we make progress.
+          form(action='//Church.us13.list-manage.com/subscribe/post?u=608cc8635d7bdae1b1a473640&amp;id=01716886c4', method='post', class='validate', target='_blank')
+            .field
+              p.control
+                input(type='text', value='', name='FNAME' id='fname', placeholder='Enter First Name').input.is-medium
+            .field
+              p.control
+                input(type='email', value='', name='EMAIL' id='email', placeholder='Enter E-Mail Address').input.is-medium
+            .field
+              p
+                input(type='submit', value='Join Waiting List', name='subscribe').button.is-primary.is-inverted
+          h3.subtitle(style='margin-top:20px;') We may also send helpful information for your church spread the Gospel of Jesus Christ in your community.
+          hr
+          h3.title.is-3 Don't forget to share this website with other ministry leaders!
+          .addthis_inline_share_toolbox
+        .column.is-quarter
+  script(src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-590586b51b60b6ff', type='text/javascript')
